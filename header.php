@@ -33,18 +33,24 @@
 	<header id="masthead" class="site-header">
 		<div class="wrap">
 
-			<div class="site-branding">
-				<?php if ( is_front_page() && is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php endif;
+			<div class="hero">
+				<div class="hero-inner">
 
-				$description = get_bloginfo( 'description', 'display' );
-				if ( $description || is_customize_preview() ) : ?>
-					<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+			    <?php if ( is_front_page() ) : ?>
+			    	<h1 class="site-title">
+			    		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hero-logo">
+			    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
+						</a>
+					</h1>
+				<?php else : ?>
+					<p class="site-title">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hero-logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
+						</a>
+					</p>
 				<?php endif; ?>
-			</div><!-- .site-branding -->
+				</div>
+			</div>
 
 			<nav id="site-navigation" class="main-navigation">
 				<button class="menu-toggle" aria-controls="primary-menu"><?php thehonestdog_do_svg( array( 'icon' => 'bars', 'title' => 'Display Menu' ) ); ?><span class="menu-toggle-text"><?php esc_html_e( 'Menu', 'thehonestdog' ); ?></span></button>
