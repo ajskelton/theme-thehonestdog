@@ -31,7 +31,7 @@
 	@include fill-parent;
 
 	@include media($tablet-landscape) {
-		@include span-columns(8);
+		@include span-columns(12);
 	}
 }
 
