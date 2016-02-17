@@ -42,11 +42,11 @@ a {
 
 // Main navigation container
 .main-navigation {
-	@include size(100% auto);
+	// @include size(100% auto);
 
-	clear: both;
-	display: block;
-	float: left;
+	// clear: both;
+	// display: block;
+	float: right;
 
 	// Menu area
 	ul {
@@ -67,7 +67,8 @@ a {
 	@include list-reset;
 
 	li {
-		margin: 0 rem(10) 0 0;
+		margin: 0 rem(20) 0 0;
+		line-height: rem(100);
 	}
 
 	ul {

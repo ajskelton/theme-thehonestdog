@@ -31,39 +31,57 @@
 	<?php wds_page_builder_area( 'hero' ); ?>
 
 	<header id="masthead" class="site-header">
-		<div class="wrap">
 
-			<div class="hero">
-				<div class="hero-inner">
+		<div class="top-bar">
+			<div class="wrap">
+				<ul class="top-nav">
+					<li>
+						<svg class="icon icon-facebook">
+				    		<use xlink:href="#icon-facebook"></use>
+						</svg>
+					</li>
+					<li>
+						<svg class="icon icon-twitter">
+	    					<use xlink:href="#icon-twitter"></use>
+						</svg>
+					</li>
+					<li>Contact</li>
+				</ul> <!-- .top-nav -->
+			</div> <!-- .wrap -->
+		</div> <!-- .top-bar -->
+
+		<div class="main-nav">
+			
+			<div class="wrap">
 
 			    <?php if ( is_front_page() ) : ?>
 			    	<h1 class="site-title">
-			    		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hero-logo">
-			    			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
+			    		<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+			    			<img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
 						</a>
 					</h1>
 				<?php else : ?>
 					<p class="site-title">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hero-logo">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+							<img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
 						</a>
 					</p>
 				<?php endif; ?>
-				</div>
-			</div>
 
-			<nav id="site-navigation" class="main-navigation">
-				<button class="menu-toggle" aria-controls="primary-menu"><?php thehonestdog_do_svg( array( 'icon' => 'bars', 'title' => 'Display Menu' ) ); ?><span class="menu-toggle-text"><?php esc_html_e( 'Menu', 'thehonestdog' ); ?></span></button>
-				<?php
-					wp_nav_menu( array(
-						'theme_location' => 'primary',
-						'menu_id'        => 'primary-menu',
-						'menu_class'     => 'menu dropdown'
-					) );
-				?>
-			</nav><!-- #site-navigation -->
 
-		</div><!-- .wrap -->
+				<nav id="site-navigation" class="main-navigation">
+					<button class="menu-toggle" aria-controls="primary-menu"><?php thehonestdog_do_svg( array( 'icon' => 'bars', 'title' => 'Display Menu' ) ); ?><span class="menu-toggle-text"><?php esc_html_e( 'Menu', 'thehonestdog' ); ?></span></button>
+					<?php
+						wp_nav_menu( array(
+							'theme_location' => 'primary',
+							'menu_id'        => 'primary-menu',
+							'menu_class'     => 'menu dropdown'
+						) );
+					?>
+				</nav><!-- #site-navigation -->
+
+			</div><!-- .wrap -->
+		</div><!-- .main-nav -->
 	</header><!-- #masthead -->
 
 	<?php wds_page_builder_area( 'before_content' ); ?>
