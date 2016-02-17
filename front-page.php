@@ -27,11 +27,13 @@ get_header(); ?>
 
 				<?php endwhile; // End of the loop. ?>
 
+
+
 			</main><!-- #main -->
 		</div><!-- .primary -->
 
-		<?php get_sidebar(); ?>
-
 	</div><!-- .wrap -->
+
+	<div id="map_canvas"></div>
 
 <?php get_footer(); ?>
