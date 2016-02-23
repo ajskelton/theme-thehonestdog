@@ -34,6 +34,6 @@ get_header(); ?>
 
 	</div><!-- .wrap -->
 
-	<div id="map_canvas"></div>
+	<!-- <div id="map_canvas"></div> -->
 
 <?php get_footer(); ?>

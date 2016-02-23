@@ -30,31 +30,24 @@
 
 	<?php wds_page_builder_area( 'hero' ); ?>
 
-	<header id="masthead" class="site-header">
-
-		<div class="top-bar">
-			<div class="wrap">
-				<ul class="top-nav">
-					<li>
-						<svg class="icon icon-facebook">
-				    		<use xlink:href="#icon-facebook"></use>
-						</svg>
-					</li>
-					<li>
-						<svg class="icon icon-twitter">
-	    					<use xlink:href="#icon-twitter"></use>
-						</svg>
-					</li>
-					<li>Contact</li>
-				</ul> <!-- .top-nav -->
-			</div> <!-- .wrap -->
-		</div> <!-- .top-bar -->
-
-		<div class="main-nav">
+	<header id="masthead" class="site-header centered-navigation">
 			
-			<div class="wrap">
+	  <div class="centered-navigation-wrapper">
+	    <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+	    <?php
+			wp_nav_menu( array(
+				'theme_location' => 'primary',
+				'menu_id'        => 'js-centered-navigation-menu',
+				'menu_class'     => 'centered-navigation-menu show',
+				'container' 	 => 'nav',
+			) );
+		?>
+		<img class="menu-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDogLogo.png" alt="Logo image">
+	  </div>
+	</header>
 
-			    <?php if ( is_front_page() ) : ?>
+
+			   <!--  <?php if ( is_front_page() ) : ?>
 			    	<h1 class="site-title">
 			    		<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 			    			<img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
@@ -79,10 +72,6 @@
 						) );
 					?>
 				</nav><!-- #site-navigation -->
-
-			</div><!-- .wrap -->
-		</div><!-- .main-nav -->
-	</header><!-- #masthead -->
 
 	<?php wds_page_builder_area( 'before_content' ); ?>
 

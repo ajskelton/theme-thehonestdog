@@ -83,6 +83,22 @@ document.body.className = document.body.className.replace( 'no-js', 'js' );
 		}
 	}
 } )();
+var $ = jQuery.noConflict();
+
+$(document).ready(function() {
+  var menuToggle = $('#js-centered-navigation-mobile-menu').unbind();
+  $('#js-centered-navigation-menu').removeClass("show");
+  
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-centered-navigation-menu').slideToggle(function(){
+      if($('#js-centered-navigation-menu').is(':hidden')) {
+        $('#js-centered-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
 /**
  * Helps with accessibility for keyboard only users.
  */
