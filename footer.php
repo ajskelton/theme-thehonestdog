@@ -11,8 +11,6 @@
 
 ?>
 
-	</div><!-- #content -->
-
 	<div class="footer-area">
 		<?php wds_page_builder_area( 'after_content' ); ?>
 	</div>
