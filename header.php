@@ -46,33 +46,6 @@
 	  </div>
 	</header>
 
-
-			   <!--  <?php if ( is_front_page() ) : ?>
-			    	<h1 class="site-title">
-			    		<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-			    			<img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
-						</a>
-					</h1>
-				<?php else : ?>
-					<p class="site-title">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-							<img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDog.Logo.png" alt="Logo Image">
-						</a>
-					</p>
-				<?php endif; ?>
-
-
-				<nav id="site-navigation" class="main-navigation">
-					<button class="menu-toggle" aria-controls="primary-menu"><?php thehonestdog_do_svg( array( 'icon' => 'bars', 'title' => 'Display Menu' ) ); ?><span class="menu-toggle-text"><?php esc_html_e( 'Menu', 'thehonestdog' ); ?></span></button>
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'primary',
-							'menu_id'        => 'primary-menu',
-							'menu_class'     => 'menu dropdown'
-						) );
-					?>
-				</nav><!-- #site-navigation -->
-
 	<?php wds_page_builder_area( 'before_content' ); ?>
 
 	<div id="content" class="site-content">
