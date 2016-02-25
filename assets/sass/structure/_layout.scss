@@ -7,7 +7,8 @@
 .wrap {
 	@include outer-container;
 
-	padding: 0 2*$gutter;
+	padding: 0 2em;
+	margin-bottom: 1em;
 
 	@include media($desktop) {
 		padding: 0;
@@ -29,16 +30,43 @@
 
 .primary {
 	@include fill-parent;
+	// margin-bottom: $gutter/2;
 
-	@include media($tablet-landscape) {
-		@include span-columns(12);
+	@include media($tablet-portrait) {
+		@include span-columns(8);
 	}
 }
 
 .secondary {
 	@include fill-parent;
+	@include span-columns(12);
 
-	@include media($tablet-landscape) {
+	@include media($tablet-portrait) {
+		@include span-columns(4);
+	}
+
+	.box {
+		@include fill-parent;
+		
+		@include media($phone-landscape) {
+			@include span-columns(6 of 12);
+		}
+
+		@include media($tablet-portrait) {
+			@include span-columns(12 of 12);
+			@include omega();
+		}
+	}
+}
+
+.card {
+	@include fill-parent;
+
+	@include media($phone-landscape) {
+		@include span-columns(4);
+	}
+
+	@include media($tablet-portrait) {
 		@include span-columns(4);
 	}
 }

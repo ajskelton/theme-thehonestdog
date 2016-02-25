@@ -42,6 +42,46 @@
 	margin: 0 rem(24);
 }
 
+.hero {
+	width:100%;
+	height:rem(600);
+	background: url('assets/images/HeroImage.jpg') no-repeat center center;
+	background-size: auto 100%;
+}
+
+.hero-text {
+	color:$color-dark-blue;
+	background-color: $color-gray-alt;
+	padding: rem(24) rem(48);
+	margin:0;
+	text-align:center;
+	font-size:1.5em;
+}
+
+.box {
+	color: white;
+	background-color: $color-dark-blue;
+	border: 3px solid $color-dark-green;
+	height: rem(290);
+
+	&:first-child {
+		margin-bottom: $gutter/2;
+	}
+}
+
+.card {
+	border: 3px solid $color-dark-green;
+}
+
+.contact-details {
+	padding: rem(12);
+	text-align: center;
+
+	p {
+		margin: 0 0 rem(10);
+	}
+}
+
 // Asides
 
 .blog .format-aside .entry-title,
