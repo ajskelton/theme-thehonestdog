@@ -11,24 +11,21 @@
 
 ?>
 
+</div><!-- .site-content -->
+
 	<div class="footer-area">
 		<?php wds_page_builder_area( 'after_content' ); ?>
 	</div>
 
 	<footer id="colophon" class="site-footer">
-		<div class="wrap">
-
-			<div class="site-info">
-				<?php thehonestdog_do_copyright_text(); ?>
-			</div><!-- .site-info -->
-
-		</div><!-- .wrap -->
+		<div class="site-info">
+			The Honest Dog &copy; <?php echo date('Y'); ?> | Design by <a href="http://www.redcartstudios.com" title="Red Cart Studios">Red Cart Studios</a>.
+		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 <?php include_once("inc/analyticstracking.php") ?>
-<?php include_once("inc/googlemap.php") ?>
 
 </body>
 </html>

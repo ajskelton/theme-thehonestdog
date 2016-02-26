@@ -322,20 +322,3 @@ function thehonestdog_get_attachment_id_from_url( $attachment_url = '' ) {
 
 	return $attachment_id;
 }
-
-/**
- * Echo the copyright text saved in the Customizer
- */
-function thehonestdog_do_copyright_text() {
-
-	// Grab our customizer settings.
-	$copyright_text = get_theme_mod( 'thehonestdog_copyright_text' );
-
-	// Stop if there's nothing to display.
-	if ( ! $copyright_text ) {
-		return false;
-	}
-
-	// Echo the text.
-	echo '<span class="copyright-text">' . wp_kses_post( $copyright_text ) . '</span>';
-}
