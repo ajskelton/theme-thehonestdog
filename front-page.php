@@ -17,7 +17,7 @@ $card_3_image = get_field('card_3_image');
 		<div class="wrap">
 
 			<div class="primary content-area">
-				<div class="hero" style="background: url('<?php echo $hero_image['url'] ?>') no-repeat center center; background-size:auto 100%;"></div>
+				<div class="hero" style="background-image: url('<?php echo $hero_image['url'] ?>')"></div>
 			</div>
 
 			<div class="secondary">
@@ -31,7 +31,7 @@ $card_3_image = get_field('card_3_image');
 
 				<div class="box">
 					<h3>Location</h3>
-					
+					<div id="map_canvas"></div>
 				</div>
 
 			</div>

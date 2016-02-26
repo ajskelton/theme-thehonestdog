@@ -7,8 +7,12 @@
 .wrap {
 	@include outer-container;
 
-	padding: 0 2em;
+	// padding: 0 2em;
 	margin-bottom: 1em;
+
+	@include media($tablet-portrait) {
+		padding: 0 2em;
+	}
 
 	@include media($desktop) {
 		padding: 0;
@@ -21,7 +25,7 @@
 }
 
 .site-content {
-	margin: rem(20) auto;
+	// margin: rem(20) auto;
 
 	@include media($desktop) {
 		margin: rem(40) auto rem(60);
@@ -30,7 +34,7 @@
 
 .primary {
 	@include fill-parent;
-	// margin-bottom: $gutter/2;
+	margin-bottom: $gutter/2;
 
 	@include media($tablet-portrait) {
 		@include span-columns(8);
@@ -47,6 +51,7 @@
 
 	.box {
 		@include fill-parent;
+		margin-bottom: $gutter/2;
 		
 		@include media($phone-landscape) {
 			@include span-columns(6 of 12);

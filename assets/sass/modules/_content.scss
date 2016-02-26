@@ -44,31 +44,56 @@
 
 .hero {
 	width:100%;
-	height:rem(600);
+	height:rem(248);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	@include media($phone-landscape) {
+		height:rem(400);
+	}
+
+	@include media($tablet-portrait) {
+		height:rem(600);
+		background-size: auto 100%;
+	}
 }
 
 .hero-text {
 	color:$color-dark-blue;
 	background-color: #CCC;
-	padding: rem(24) rem(48);
 	margin:0;
 	text-align:center;
-	font-size:1.5em;
+	padding: rem(12);
+
+	@include media($tablet-portrait) {
+		font-size:1.5em;
+		padding: rem(24) rem(48);
+	}
 }
 
 .box {
 	color: white;
 	background-color: $color-dark-blue;
 	border: 3px solid $color-dark-green;
-	height: rem(290);
 
-	&:first-child {
-		margin-bottom: $gutter/2;
+	@include media($tablet-portrait) {
+		height: rem(290);
+
+		&:first-child {
+			margin-bottom: $gutter/2;
+		}
 	}
+	
 }
 
 .card {
 	border: 3px solid $color-dark-green;
+	margin-bottom: $gutter/2;
+
+	&:last-child {
+		margin-bottom:0;
+	}
 }
 
 .contact-details {
@@ -76,7 +101,11 @@
 	text-align: center;
 
 	p {
-		margin: 0 0 rem(10);
+		margin: 0;
+	}
+
+	h4 {
+		margin:0.5em;
 	}
 }
 
@@ -86,3 +115,30 @@
 .archive .format-aside .entry-title {
 	display: none;
 }
+
+// Google Map
+#map_canvas {
+  height: rem(250);
+  width: 100%;
+}
+
+#map_canvas img { 
+  max-width: none; // to prevent UI control bug
+}
+
+#map_canvas .content {
+  padding: 0 0.5em 1em 0.5em;
+}
+
+#map_canvas .firstHeading {
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+#map_canvas #bodyContent p {
+  font-size: 1em;
+  margin: 0;
+}
+

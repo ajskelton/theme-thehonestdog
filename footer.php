@@ -26,6 +26,6 @@
 
 <?php wp_footer(); ?>
 <?php include_once("inc/analyticstracking.php") ?>
-
+<?php include_once("inc/googlemap.php") ?>
 </body>
 </html>
