@@ -24,15 +24,61 @@
 	text-align: center;
 }
 
+.contact {
+	@include media($tablet-portrait){
+		margin:0;
+	}
+
+	@include media($tablet-landscape){
+		margin:0 0 rem(12);
+	}
+	em {
+		font-style: normal;
+
+		@include media($tablet-portrait){
+			display:block;
+		}
+
+		@include media($tablet-landscape){
+			display:inline;
+		}
+	}
+}
+
 .hours {
 	margin-bottom:rem(12);
 
 	em {
 		padding-right:1em;
 		font-style: normal;
+
+		@include media($tablet-portrait){
+			display:block;
+		}
+
+		@include media($tablet-landscape){
+			display:inline;
+		}
 	}
 }
 
 .connect-widget {
 	padding-top: rem(12);
+
+	@include media($tablet-landscape) {
+		padding: rem(12);
+	}
 }
+
+.social-icons {
+	@include media($tablet-portrait){
+		margin-top: rem(12);
+	}
+}
+
+h4 {
+	@include media($tablet-portrait){
+		margin: rem(12) 0;
+	}
+}
+

@@ -63,8 +63,12 @@
 	}
 
 	@include media($tablet-portrait) {
-		height:rem(695);
+		height:rem(770);
 		background-size: auto 100%;
+	}
+
+	@include media($tablet-landscape) {
+		height:rem(675);
 	}
 }
 
