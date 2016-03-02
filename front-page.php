@@ -30,21 +30,21 @@ $card_3_image = get_field('card_3_image');
 			<div class="card">
 				<a href="<?php the_field('card_1_link'); ?>" title="">
 					<h3><?php the_field('card_1_heading'); ?></h3>
-					<img src="<?php echo $card_1_image['url'] ?>">
+					<div class="card-image" style="background-image: url('<?php echo $card_1_image['url'] ?>')"></div>
 				</a>
 			</div>
 
 			<div class="card">
 				<a href="<?php the_field('card_2_link'); ?>" title="">
 					<h3><?php the_field('card_2_heading'); ?></h3>
-					<img src="<?php echo $card_2_image['url'] ?>">
+					<div class="card-image" style="background-image: url('<?php echo $card_2_image['url'] ?>')"></div>
 				</a>
 			</div>
 
 			<div class="card">
 				<a href="<?php the_field('card_3_link'); ?>" title="">
 					<h3><?php the_field('card_3_heading'); ?></h3>
-					<img src="<?php echo $card_3_image['url'] ?>">
+					<div class="card-image" style="background-image: url('<?php echo $card_3_image['url'] ?>')"></div>
 				</a>
 			</div>
 
