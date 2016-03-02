@@ -35,6 +35,7 @@ $color-pinterest: #cb2027;
 $color-rss: #ff9900;
 $color-twitter: #00aced;
 $color-youtube: #bb0000;
+$color-yelp: #af0606;
 
 // $social-colors() map
 $social-colors: (
@@ -53,6 +54,7 @@ $social-colors: (
 	twitter-square: $color-twitter,
 	youtube: $color-youtube,
 	youtube-square: $color-youtube,
+	yelp: $color-yelp,
 );
 
 // GRAYSCALE

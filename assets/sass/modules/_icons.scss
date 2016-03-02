@@ -9,10 +9,10 @@
 	text-align: center;
 
 	// After 1024px, let's float and text align left
-	@include media($tablet-landscape) {
-		float: left;
-		text-align: left;
-	}
+	// @include media($tablet-landscape) {
+	// 	float: left;
+	// 	text-align: left;
+	// }
 
 	// Each icon <li>
 	.social-icon {
@@ -25,13 +25,13 @@
 
 			// Set styles on those social icons!
 			.icon-#{$social-color} {
-				@include size(rem(24) rem(24));
+				@include size(rem(36) rem(36));
 
 				fill: $color-white;
 
-				&:hover {
-					fill: $color;
-				}
+				// &:hover {
+				// 	fill: $color;
+				// }
 			}
 		}
 

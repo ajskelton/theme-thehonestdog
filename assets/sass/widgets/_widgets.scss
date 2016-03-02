@@ -25,11 +25,14 @@
 }
 
 .hours {
-	&:first-child {
-		margin-bottom: .5em;		
-	}
+	margin-bottom:rem(12);
+
 	em {
 		padding-right:1em;
 		font-style: normal;
 	}
+}
+
+.connect-widget {
+	padding-top: rem(12);
 }
