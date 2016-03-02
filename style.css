@@ -377,7 +377,7 @@ h3,
 .h3 {
   text-align: center;
   color: white;
-  background-color: #608828;
+  background-color: #5C8727;
   margin: 0;
 }
 
@@ -968,7 +968,7 @@ body.ready .not-ready {
 
 /* line 127, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_navigation.scss */
 .centered-navigation ul li.nav-link a {
-  color: #004B90;
+  color: #004990;
   display: inline-block;
   outline: none;
   text-decoration: none;
@@ -1099,7 +1099,7 @@ a:hover, a:focus, a:active {
   font-size: 2.25rem;
   margin: 0;
   padding-left: 1.25em;
-  background-color: #004B90;
+  background-color: #004990;
   color: white;
 }
 
@@ -1154,7 +1154,7 @@ a:hover, a:focus, a:active {
 
 /* line 66, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .hero-text {
-  color: #004B90;
+  color: #004990;
   background-color: #CCC;
   margin: 0;
   text-align: center;
@@ -1164,13 +1164,13 @@ a:hover, a:focus, a:active {
 /* line 79, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .box {
   color: white;
-  background-color: #004B90;
-  border: 3px solid #608828;
+  background-color: #004990;
+  border: 3px solid #5C8727;
 }
 
 /* line 94, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .card {
-  border: 3px solid #608828;
+  border: 3px solid #5C8727;
   margin-bottom: 1.25em;
 }
 
@@ -1198,31 +1198,32 @@ a:hover, a:focus, a:active {
 /* line 116, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .featured-image {
   position: relative;
+  border: 3px solid #5C8727;
 }
 
-/* line 122, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 123, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
 }
 
-/* line 128, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 129, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas {
   height: 15.625rem;
   width: 100%;
 }
 
-/* line 133, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 134, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas img {
   max-width: none;
 }
 
-/* line 137, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 138, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas .content {
   padding: 0 0.5em 1em 0.5em;
 }
 
-/* line 141, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 142, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas .firstHeading {
   font-size: 1em;
   line-height: 1em;
@@ -1230,7 +1231,7 @@ a:hover, a:focus, a:active {
   margin: 0;
 }
 
-/* line 148, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 149, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas #bodyContent p {
   font-size: 1em;
   margin: 0;
@@ -1574,7 +1575,7 @@ textarea {
 
 /* line 5, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_footer.scss */
 .site-footer {
-  background-color: #004B90;
+  background-color: #004990;
   color: white;
   padding: 0 3em;
 }
