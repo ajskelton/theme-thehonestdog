@@ -16,16 +16,8 @@ get_header(); ?>
 
 	<div class="wrap">
 
-		<div class="content-area">
+		<div class="primary content-area">
 			<main id="main" class="site-main">
-
-				<div class="featured-image">
-					<?php 
-					if ( has_post_thumbnail() ) {
-						the_post_thumbnail();
-					} 
-					?>
-				</div>	
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -42,6 +34,8 @@ get_header(); ?>
 
 			</main><!-- #main -->
 		</div><!-- .primary -->
+
+		<?php get_sidebar( ); ?>
 
 	</div><!-- .wrap -->
 
