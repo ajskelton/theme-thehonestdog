@@ -16,30 +16,13 @@ $card_3_image = get_field('card_3_image');
 
 		<div class="wrap">
 
-			<div class="primary content-area">
+			<div class="primary content-area hero-wrap">
 				<div class="hero" style="background-image: url('<?php echo $hero_image['url'] ?>')"></div>
+				<p class="hero-text"><?php the_field('hero_text'); ?></p>
 			</div>
 
-			<div class="secondary">
+			<?php get_sidebar( 'frontpage' ); ?>
 
-				<div class="box">
-					<h3>Contact</h3>
-					<div class="contact-details">
-						<?php the_field('contact_editor') ?>
-					</div>
-				</div>
-
-				<div class="box">
-					<h3>Location</h3>
-					<div id="map_canvas"></div>
-				</div>
-
-			</div>
-
-		</div><!-- .wrap -->
-
-		<div class="wrap">
-			<p class="hero-text"><?php the_field('hero_text'); ?></p>
 		</div><!-- .wrap -->
 						
 		<div class="wrap">

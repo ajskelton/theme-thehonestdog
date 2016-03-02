@@ -46,33 +46,40 @@
 	margin: 0 rem(24);
 }
 
+.hero-wrap {
+	position: relative;
+}
+
 .hero {
 	width:100%;
 	height:rem(248);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center center;
+	position: relative;
 
 	@include media($phone-landscape) {
 		height:rem(400);
 	}
 
 	@include media($tablet-portrait) {
-		height:rem(600);
+		height:rem(695);
 		background-size: auto 100%;
 	}
 }
 
 .hero-text {
-	color:$color-dark-blue;
-	background-color: #CCC;
+	color:white;
+	background-color: $color-dark-blue;
 	margin:0;
 	text-align:center;
 	padding: rem(12);
+	position: absolute;
+	bottom: 0;
 
 	@include media($tablet-portrait) {
-		font-size:1.5em;
-		padding: rem(24) rem(48);
+		// font-size:1em;
+		padding: rem(12) rem(48);
 	}
 }
 
