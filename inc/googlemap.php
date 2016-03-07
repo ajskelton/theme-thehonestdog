@@ -17,9 +17,9 @@
           '<div id="content">'+
           '<div id="siteNotice">'+
           '</div>'+
-          '<h1 id="firstHeading" class="firstHeading">thoughtbot</h1>'+
-          '<div id="bodyContent"'+
-          '<p>Sveavägen 98</p>'+
+          '<h1 id="firstHeading" class="firstHeading">The Honest Dog</h1>'+
+          '<div id="bodyContent">'+
+          '<p><a href="https://goo.gl/maps/V4VuBu9safT2" target="_blank">3032 Arden Way, Sacramento, CA 95825</p>'+
           '</div>'+
           '</div>',
         infowindow = new google.maps.InfoWindow({
@@ -29,7 +29,7 @@
         marker = new google.maps.Marker({
           position: myLatlng,
           map: map,
-          title: 'thoughtbot (Sweden)'
+          title: 'The Honest Dog'
         });
 
     return {
