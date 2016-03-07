@@ -63,12 +63,12 @@
 	}
 
 	@include media($tablet-portrait) {
-		height:rem(770);
+		height:rem(760);
 		background-size: auto 100%;
 	}
 
 	@include media($tablet-landscape) {
-		height:rem(675);
+		height:rem(690);
 	}
 }
 
@@ -84,6 +84,10 @@
 	@include media($tablet-portrait) {
 		position: absolute;
 		padding: rem(12) rem(48);
+	}
+
+	@include media($tablet-landscape) {
+		padding: rem(12) rem(36);
 	}
 }
 
@@ -212,4 +216,10 @@
 
 .bxslider {
 	margin:0;
+}
+
+.two-line-fix {
+	@include media ($tablet-landscape) {
+		padding: 0 rem(24);
+	}
 }

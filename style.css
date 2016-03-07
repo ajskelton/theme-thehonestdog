@@ -1168,82 +1168,82 @@ a:hover, a:focus, a:active {
   bottom: 0;
 }
 
-/* line 90, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 94, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .box {
   color: white;
   background-color: #004990;
   border: 3px solid #5C8727;
 }
 
-/* line 105, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 109, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .card {
   border: 3px solid #5C8727;
   margin-bottom: 1.25em;
 }
 
-/* line 109, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 113, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .card:last-child {
   margin-bottom: 0;
 }
 
-/* line 113, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 117, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .card a {
   text-decoration: none;
 }
 
-/* line 118, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 122, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .card-image {
   height: 18.75rem;
   background-size: auto 100%;
   background-position: center center;
 }
 
-/* line 124, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 128, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .contact-details {
   padding: 0.75rem;
   text-align: center;
 }
 
-/* line 128, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 132, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .contact-details p {
   margin: 0;
 }
 
-/* line 132, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 136, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .contact-details h4 {
   margin: 0.5em;
 }
 
-/* line 137, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 141, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .featured-image {
   position: relative;
   border: 3px solid #5C8727;
 }
 
-/* line 144, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 148, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
 }
 
-/* line 150, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 154, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas {
   height: 15.625rem;
   width: 100%;
 }
 
-/* line 155, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 159, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas img {
   max-width: none;
 }
 
-/* line 159, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 163, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas .content {
   padding: 0 0.5em 1em 0.5em;
   color: #004990;
 }
 
-/* line 164, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 168, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas .firstHeading {
   font-size: 1em;
   line-height: 1em;
@@ -1252,14 +1252,14 @@ a:hover, a:focus, a:active {
   color: #004990;
 }
 
-/* line 172, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 176, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 #map_canvas #bodyContent p {
   font-size: 1em;
   margin: 0;
   color: #004990;
 }
 
-/* line 178, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 182, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .overlay {
   background: transparent;
   position: relative;
@@ -1268,7 +1268,7 @@ a:hover, a:focus, a:active {
   height: 100%;
 }
 
-/* line 186, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 190, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .quote {
   padding: 1em 3.5em;
   margin: 0;
@@ -1277,7 +1277,7 @@ a:hover, a:focus, a:active {
   font-weight: bold;
 }
 
-/* line 202, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 206, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .cite {
   text-align: center;
   color: #004990;
@@ -1285,7 +1285,7 @@ a:hover, a:focus, a:active {
   margin: 0.5em;
 }
 
-/* line 213, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+/* line 217, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
 .bxslider {
   margin: 0;
 }
@@ -1925,7 +1925,7 @@ textarea {
   }
   /* line 53, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
   .hero{
-    height: 48.125rem;
+    height: 47.5rem;
     background-size: auto 100%;
   }
   /* line 75, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
@@ -1933,11 +1933,11 @@ textarea {
     position: absolute;
     padding: 0.75rem 3rem;
   }
-  /* line 90, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+  /* line 94, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
   .box{
     height: 18.125rem;
   }
-  /* line 98, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+  /* line 102, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
   .box:first-child{
     margin-bottom: 1.25em;
   }
@@ -2043,7 +2043,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 53.75em){
+@media screen and (min-width: 64rem){
   /* line 39, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_navigation.scss */
   .centered-navigation .mobile-logo{
     display: none;
@@ -2072,6 +2072,10 @@ textarea {
   .centered-navigation ul li.nav-link a{
     padding-right: 1em;
     font-size: 1em;
+  }
+  /* line 152, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_navigation.scss */
+  .centered-navigation ul li.nav-link a{
+    font-size: 1.2em;
   }
   /* line 159, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_navigation.scss */
   .centered-navigation ul li.nav-link:nth-child(3){
@@ -2131,20 +2135,21 @@ textarea {
     text-align: left;
     width: 12em;
   }
-}
-
-@media screen and (min-width: 64rem){
-  /* line 152, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_navigation.scss */
-  .centered-navigation ul li.nav-link a{
-    font-size: 1.2em;
-  }
   /* line 53, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
   .hero{
-    height: 42.1875rem;
+    height: 43.125rem;
   }
-  /* line 186, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+  /* line 75, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+  .hero-text{
+    padding: 0.75rem 2.25rem;
+  }
+  /* line 190, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
   .quote{
     padding: 2em 5em;
+  }
+  /* line 221, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+  .two-line-fix{
+    padding: 0 1.5rem;
   }
   /* line 27, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_icons.scss */
   .social-icons .social-icon .icon-facebook{
@@ -2261,11 +2266,11 @@ textarea {
   .centered-navigation ul.centered-navigation-menu{
     margin: 2em 0 0 0;
   }
-  /* line 186, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+  /* line 190, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
   .quote{
     padding: 3em 5em 0em 3em;
   }
-  /* line 202, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
+  /* line 206, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/modules/_content.scss */
   .cite{
     padding: 0 0 2em 0;
   }
