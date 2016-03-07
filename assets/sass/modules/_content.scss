@@ -180,3 +180,33 @@
    height:100%;
 }
 
+.quote {
+	padding: 1em 3.5em;
+	margin: 0;
+	text-align: center;
+	color: $color-dark-blue;
+	font-weight: bold;
+
+	@include media($tablet-landscape) {
+		padding: 2em 5em;
+	}
+
+	@include media($desktop) {
+		padding: 3em 5em 0em 3em;
+	}
+}
+
+.cite {
+	text-align: center;
+	color: $color-dark-blue;
+	font-weight: bold;
+	margin:0.5em;
+
+	@include media($desktop) {
+		padding:0 0 2em 0;
+	}
+}
+
+.bxslider {
+	margin:0;
+}

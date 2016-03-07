@@ -24,6 +24,35 @@ $card_3_image = get_field('card_3_image');
 			<?php get_sidebar( 'frontpage' ); ?>
 
 		</div><!-- .wrap -->
+
+		<div class="wrap">
+			<ul class="bxslider">
+			  <li>
+					<p class="quote">
+						"Not only do I support shopping local, I also support honest and sincere business owners like Pam."
+					</p>
+					<p class="cite">
+						&mdash; Edith
+					</p>
+				</li>
+			  <li>
+			  	<p class="quote">
+						"Great quality foods and treats sold at a fair price! Not to mention great service!"
+					</p>
+					<p class="cite">
+						&mdash; Bettina
+					</p>
+			  </li>
+			  <li>
+			  	<p class="quote">
+						"My dog and I love the place. They do a great job bathing and grooming, we wouldn't go anywhere else."
+					</p>
+					<p class="cite">
+						&mdash; Anne
+					</p>
+			  </li>
+			</ul>
+		</div>
 						
 		<div class="wrap">
 				
