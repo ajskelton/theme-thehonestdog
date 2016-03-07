@@ -29,9 +29,13 @@
 
 				fill: $color-white;
 
-				// &:hover {
-				// 	fill: $color;
-				// }
+				@include media($tablet-portrait){
+					@include size(rem(24) rem(24));
+				}
+
+				@include media($tablet-landscape){
+					@include size(rem(36) rem(36));
+				}
 			}
 		}
 
@@ -39,5 +43,7 @@
 		&:last-child {
 			margin-right: 0;
 		}
+
+
 	}
 }
