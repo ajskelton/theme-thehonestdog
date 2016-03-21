@@ -14,12 +14,10 @@ get_header(); ?>
 		<main id="main" class="site-main">
 
 			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'thehonestdog' ); ?></h1>
-				</header><!-- .page-header -->
-
 				<div class="page-content">
+				<a href="<?php echo get_home_url(); ?>">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/404_error.jpg" alt="404 Error Dog">
+				</a>
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
