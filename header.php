@@ -42,7 +42,7 @@
 				'container' 	 => 'nav',
 			) );
 		?>
-		<img class="menu-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDogLogo.png" alt="Logo image">
+		<a href="<?php echo get_home_url(); ?>"><img class="menu-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/HonestDogLogo.png" alt="The Honest Dog Logo"></a>
 	  </div>
 	</header>
 
