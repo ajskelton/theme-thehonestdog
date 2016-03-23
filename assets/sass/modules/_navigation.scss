@@ -165,6 +165,15 @@
 	  }
   }
 
+  @include media($desktop) {
+    ul li.nav-link:nth-child(3) {
+      padding-right:rem(100);
+    }
+    ul li.nav-link:nth-child(4) {
+      padding-left:rem(100);
+    }
+  }
+
   .menu-logo {
   	position: absolute;
   	top:0;
