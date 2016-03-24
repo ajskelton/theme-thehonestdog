@@ -378,7 +378,7 @@ h3,
   text-align: center;
   color: white;
   background-color: #5C8727;
-  margin: 0;
+  margin: 0 0 1em 0;
 }
 
 /* line 52, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/base/_typography.scss */
@@ -491,6 +491,11 @@ big {
 .widget {
   word-wrap: break-word;
   word-break: keep-all;
+}
+
+/* line 147, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/base/_typography.scss */
+.widget-title {
+  margin: 0;
 }
 
 /* line 7, /Users/mranthonyskelton/code/vagrant-local/www/TheHonestDog/htdocs/wp-content/themes/thehonestdog/assets/sass/base/_accessibility.scss */

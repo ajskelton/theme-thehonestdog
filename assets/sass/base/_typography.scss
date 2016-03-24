@@ -29,7 +29,7 @@ h3,
 	text-align: center;
 	color: white;
 	background-color: $color-dark-green;
-	margin: 0;
+	margin: 0 0 1em 0;
 }
 
 h4,
@@ -142,4 +142,8 @@ big {
 .widget-title,
 .widget {
 	@include word-break;
+}
+
+.widget-title {
+	margin: 0;
 }
