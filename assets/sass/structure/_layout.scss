@@ -34,6 +34,7 @@
 
 .primary {
 	@include fill-parent;
+	@include span-columns(12);
 	margin-bottom: $gutter/2;
 
 	@include media($tablet-portrait) {
