@@ -68,8 +68,10 @@ i {
 
 blockquote,
 q {
-	margin: 0 rem(24);
+	margin: 0 0 rem(24) 0;
+	padding: 0 rem(24);
 	quotes: "" "";
+	border-left: 3px solid $color-dark-green;
 
 	&:before,
 	&:after {
